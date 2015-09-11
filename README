@@ -13,6 +13,11 @@ turnLeft();
 putBall();
 takeBall();
 
+To compile and test easily from the command line, run:
+
+$ javac -cp src:lib/karel.jar src/BlankKarel.java
+$ java -cp src:lib/karel.jar BlankKarel
+
 ====================================================================
 
 This directory rebuilds the karel.jar archive used to

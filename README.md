@@ -21,10 +21,10 @@ in the root to the classpath.
 
 Karel's basic set of commands are:
 
-move();
-turnLeft();
-putBall();
-takeBall();
+    move();
+    turnLeft();
+    putBall();
+    takeBall();
 
 ## Build Instructions
 

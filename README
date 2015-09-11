@@ -6,6 +6,15 @@ This is the origin ACM library licence: http://cs.stanford.edu/people/eroberts/j
 
 ====================================================================
 
+Karel's basic set of commands are:
+
+move();
+turnLeft();
+putBall();
+takeBall();
+
+====================================================================
+
 This directory rebuilds the karel.jar archive used to
 implement the Java-based version of Karel the Dog.
 

@@ -1,0 +1,3 @@
+jbk[~/Documents/...ipse/BlankKarel] $ javac -cp src:lib/karel.jar src/BlankKarel.java
+jbk[~/Documents/...ipse/BlankKarel] $ java -cp src:lib/karel.jar BlankKarel
+jbk[~/Documents/...ipse/BlankKarel] $

@@ -1,10 +1,23 @@
+## CodeHS Karel the Dog in Java -- Fork of ACM.jar and Stanford Karel
+
 This is a modified fork of the Stanford Karel and acm.jar packages
 
 Learn more about ACM Java Task Force here: http://cs.stanford.edu/people/eroberts/jtf/
 
 This is the origin ACM library licence: http://cs.stanford.edu/people/eroberts/jtf/documents/License.pdf
 
-====================================================================
+## Quickstart
+
+To test out an example open the root directory in your terminal. Then navigate to SimpleKarel
+
+    $ cd examples/SimpleKarel/
+    $ javac -cp src:../../karel.jar src/BlankKarel.java
+    $ java -cp src:../../karel.jar BlankKarel
+
+Then compile and run the program. You'll need to add the src directory as well as the karel.jar directory
+in the root to the classpath.
+
+## Karel Commands
 
 Karel's basic set of commands are:
 
@@ -13,12 +26,7 @@ turnLeft();
 putBall();
 takeBall();
 
-To compile and test easily from the command line, run:
-
-$ javac -cp src:lib/karel.jar src/BlankKarel.java
-$ java -cp src:lib/karel.jar BlankKarel
-
-====================================================================
+## Build Instructions
 
 This directory rebuilds the karel.jar archive used to
 implement the Java-based version of Karel the Dog.
